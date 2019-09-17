@@ -1,0 +1,26 @@
+{
+  "name": "tut-nodejs",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoletlopez/tut-nodejs.git"
+  },
+  "author": "Nicole Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoletlopez/tut-nodejs/issues"
+  },
+  "homepage": "https://github.com/nicoletlopez/tut-nodejs#readme",
+  "dependencies": {
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
